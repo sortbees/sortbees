@@ -4002,7 +4002,14 @@ figcaption {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.home-hero-wrapper, .first-perks-wrapper {
+.home-hero-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -60px;
+  display: flex;
+}
+
+.first-perks-wrapper {
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -5715,6 +5722,9 @@ figcaption {
   width: 100%;
   height: 718px;
   max-width: 558px;
+  background-image: url('../images/Group-205.svg');
+  background-position: 0 0;
+  background-size: auto;
   position: relative;
 }
 
@@ -6238,6 +6248,10 @@ figcaption {
   line-height: 1em;
 }
 
+.image-3 {
+  margin-top: 140px;
+}
+
 @media screen and (min-width: 1920px) {
   .section.home-hero {
     padding-top: 40px;
@@ -6275,10 +6289,17 @@ figcaption {
 
   .hero-image-wrapper {
     max-width: 600px;
+    background-image: url('../images/Group-205.svg');
+    background-position: 0 0;
+    background-size: auto;
   }
 
   .image-home-link-wrapper {
     max-width: 560px;
+  }
+
+  .image-3 {
+    margin-top: 100px;
   }
 }
 
@@ -7104,6 +7125,7 @@ figcaption {
 
   .home-hero-wrapper {
     flex-direction: column;
+    margin-top: 20px;
   }
 
   .first-perks-wrapper {
@@ -7717,6 +7739,10 @@ figcaption {
     min-height: 170px;
   }
 
+  .hero-image-wrapper {
+    margin-top: -131px;
+  }
+
   .line-square-icon.top-bar-close-icon {
     padding: 18px 24px;
   }
@@ -7906,6 +7932,7 @@ figcaption {
   }
 
   .button-primary.download-app._2-buttons-button {
+    width: 300px;
     margin-right: 0;
   }
 
@@ -9437,6 +9464,10 @@ figcaption {
     padding-right: 16px;
   }
 
+  .container-default.home-hero {
+    margin-bottom: 40px;
+  }
+
   .section-styleguide {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -9590,7 +9621,7 @@ figcaption {
   }
 
   .section.bg-neutral-200 {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 0;
   }
 
@@ -9615,12 +9646,12 @@ figcaption {
   }
 
   .section.home-achievements {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 0;
   }
 
   .section.cta {
-    padding-top: 51px;
+    padding-top: 20px;
     padding-bottom: 51px;
   }
 
@@ -10340,6 +10371,10 @@ figcaption {
 
   .bg.home-achievements {
     max-height: 1050px;
+  }
+
+  .bg.first-perks {
+    padding-top: 0;
   }
 
   .first-perks-content {
